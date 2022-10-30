@@ -1,0 +1,48 @@
+.content-sizing{
+    height: 100vh;
+    width:100%;
+    background-color: black;
+}
+.first-content{
+    background-image: url("/img/background.jpg");
+    filter: brightness(30%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .9;
+}
+.second-content{
+    background-image: url("/img/sixth.jpg");
+    filter: brightness(30%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .9;
+}
+.third-content{
+    background-image: url("/img/first.jpg");
+    filter: brightness(30%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .9;
+}
+.fourth-content{
+    background-image: url("/img/logo.webp");
+    filter: brightness(30%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .9;
+}
+.main-content{
+    display: grid;
+    grid-auto-flow: row;
+    gap: 2rem;
+
+    overflow-y: scroll;
+    height: 100vh;    
+}
+
+.snapping-y-flow{
+    scroll-snap-type: y mandatory;
+}
+.snapping-y-flow > *{
+    scroll-snap-align: start;
+}
