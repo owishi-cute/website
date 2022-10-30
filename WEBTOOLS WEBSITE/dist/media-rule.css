@@ -1,0 +1,14 @@
+@media (max-width: 1000px){
+    *:not(header *){
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .background-container{
+        height: 200px;
+    }
+    .featured-line{
+        height: 1px;
+        width: 60%;
+    }
+}
